@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{eO0U:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),l=t.n(a),r=t("InJ6");n.default=function(){return l.a.createElement(l.a.Fragment,null,l.a.createElement(r.e,null),l.a.createElement(r.a,null,l.a.createElement(r.b,null,l.a.createElement("p",null,"FOUR demos"))))}}}]);
-//# sourceMappingURL=component---src-pages-projects-four-index-js-913fb5c85f6729d282d8.js.map
