@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head profile="http://www.w3.org/2005/10/profile">
+  <meta charSet="utf-8"/>
+<meta http-equiv="x-ua-compatible" content="ie=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<link rel="alternate" type="application/rss+xml" title="Davis Marques" href="/rss.xml"/>
+<link rel="apple-touch-icon" sizes="192x192" href="/android-chrome-192x192.png"/>
+<link rel="apple-touch-icon" sizes="512x512" href="/android-chrome-512x512.png"/>
+<link rel="stylesheet" href="/css/styles.css"/>
+<meta name="theme-color" content="#6B46C1"/>
+
+
+
+
+  <title>Emoji Support</title>
+</head>
+<body>
+  
+
+  <div class="post layout">
+    <div class="header column">
+  <div class="row">
+    <h1 class="title">Davis Marques</h1>
+  </div>
+  <div class="row links">
+    <ul>
+      <li><a href="/about">About</a></li>
+      <li><a href="/posts">Blog</a></li>
+      <li><a href="/work">Work</a></li>
+    </ul>
+    <div class="right">
+      <a href="social">GitHub</a>
+    </div>
+  </div>
+</div>
+
+    <div class="content">
+      <h1>Emoji Support</h1>
+      <div class="metadata">2021.05.20 &mdash; 1 min read</div>
+      <section>
+        <article><p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
+<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
+<p><span class="nowrap"><span class="emojify">🙈</span> <code>🙈</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>🙉</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>🙊</code></span></p>
+<br>
+<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
+<hr>
+<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">.emoji {
+  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+}</code></pre></div></article>
+      </section>
+    </div>
+    <div class="footer">
+  <div>&copy; Davis Marques. All rights reserved.</div>
+  <div>Theme by LekoArts</div>
+</div>
+
+  </div>
+</body>
+</html>

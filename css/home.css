@@ -1,0 +1,13 @@
+.home .background {
+  background: url(/images/ibm/ibm-interactive-table-1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}

@@ -1,0 +1,60 @@
+html {
+  background-color: #1A202C;
+}
+body {
+  background-color: #1A202C;
+  color: #cbd5e0;
+  font-family: "IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: -0.003em;
+  line-height: 1.625;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  color: #7f8ea3;
+  margin: 0;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out 0s;
+}
+h1 {
+  color: white;
+  font-family: inherit;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 2rem 0px 0.25rem;
+}
+
+.column.layout {
+  display: flex;
+  flex-direction: column;
+  margin: 64px 0 64px 0;
+  max-width: 800px;
+  width: 800px;
+}
+
+.blog.layout {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.blog .blockquote {
+    border-left-color: #9f7aea;
+    border-left-style: solid;
+    border-left-width: 6px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 2rem;
+}
+
+.blog .footnotes hr {
+    border: none;
+    border-top: 1px solid #7f8ea3;
+}
